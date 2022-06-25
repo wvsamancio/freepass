@@ -1,0 +1,10 @@
+{
+    "name": "FreePass",
+    "description": " Free Password Vault",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "app.html"
+    },
+    "permissions": ["storage"]
+}
