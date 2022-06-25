@@ -8,15 +8,24 @@
 <body>
     <div class="search-wrapper">
         <label for="search">Search</label>
-        <input type="search" id="search" data-search>
+        <input type="search" data-search>
     </div>
     <div class="pass-card" data-pass-card>
         <template data-template>
             <div class="card">
-                <div class="title" data-title></div>
-                <div class="url" data-url></div>
-                <div class="username" data-username></div>
-                <div class="password" data-password></div>
+                <div data-title></div>
+                <div data-url></div>
+                <div class="username">
+                    <div data-username></div>
+                    <button copy-username>COPY</button>
+                </div>
+                <div class="password">
+                    <div data-password></div>
+                    <div>
+                        <button>SHOW</button>
+                        <button>COPY</button>
+                    </div>
+                </div>
             </div>
         </template>
     </div>

@@ -1,3 +1,37 @@
+html {
+    width: 500px;
+    padding: 1rem;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: .25rem;
+    border: .050rem solid black;
+    border-radius: .5rem;
+}
+
+.username {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .hide {
     display: none;
 }
