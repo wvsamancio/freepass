@@ -35,3 +35,7 @@ html {
 .hide {
     display: none;
 }
+
+.success {
+    background-color: #5cb85c;
+}
